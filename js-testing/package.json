@@ -1,0 +1,15 @@
+{
+  "name": "js-testes-unitarios-integracao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack app.js --mode development --watch",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
